@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     rsvpButton.addEventListener('click', function() {
         // Redirigir a WhatsApp
-        const phoneNumber = '3322961969';
+        const phoneNumber = '5213322961969';
         const message = encodeURIComponent('¡Hola! Me gustaría confirmar mi asistencia a la fiesta de cumpleaños de Claudia, Angie y Dieguito. ¡Nos vemos allí!');
         window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
         
