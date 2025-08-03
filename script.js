@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
 // ===== FUNCIÓN PARA CONFIRMAR ASISTENCIA VÍA WHATSAPP =====
 function confirmarAsistencia() {
-    const telefono = "3322961969"; // <-- Pon aquí tu número real
+    const telefono = "5213322961969"; // <-- Pon aquí tu número real
     const mensaje = encodeURIComponent("¡Hola! Confirmo mi asistencia a la fiesta 🥳");
     const url = `https://wa.me/${telefono}?text=${mensaje}`;
     window.open(url, "_blank");
